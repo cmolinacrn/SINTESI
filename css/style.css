@@ -1,0 +1,257 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?19439457');
+  src: url('../font/fontello.eot?19439457#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?19439457') format('woff2'),
+       url('../font/fontello.woff?19439457') format('woff'),
+       url('../font/fontello.ttf?19439457') format('truetype'),
+       url('../font/fontello.svg?19439457#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #58ACFA;
+  color: #fff;
+  position: fixed;
+  font-size: 20px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#capçelera {
+  width: 98%;
+  margin: auto;
+}
+
+#capçelera a{
+  color: #FFF;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  float: left;
+}
+
+header #capçelera {
+  display: table;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#historia {
+  text-align: center;
+}
+
+.texto_1 p {
+  text-align: center;
+  padding: 15px;
+}
+.texto_1 img {
+  border-radius: 100px;
+  text-align: center;
+}
+.texto_1 article {
+  width: 46%;
+  display: block;
+  float: left;
+  height: 200px;
+  text-align: center;
+}
+
+.texto_1 h5 {
+  clear: both;
+  font-size: 25px;
+  text-align: center;
+  color: #58ACFA;
+}
+
+h5 {
+  font-size: 25px;
+  text-align: center;
+  color: #58ACFA;
+}
+
+.dormir {
+  background-color: #58ACFA;
+  padding: 10px;
+  font-size: 17px;
+  width: auto;
+  margin: 10px 250px 30px 250px;
+  text-align: center;
+}
+
+.dormir a {
+  color: #FFF;
+}
+
+.blau{
+  background-color: #CEE3F6;
+  height: auto;
+  padding: 20px 0 3px 0;
+  margin-bottom: 20px;
+}
+
+.espacio {
+  background-color: #CEE3F6;
+  height: 10px;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+/*------------------------ CABECERA ------------------------*/
+#banner {
+  margin-top: 50px;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#banner .contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #000;
+  background-color: #FFF;
+  opacity: 0.85;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#banner .contenedor_a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #000;
+  font-size: 20px;
+  background-color: #FFF;
+  opacity: 0.75;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#banner h2 {
+  font-size: 40px;
+  color: #58ACFA;
+}
+
+#banner a {
+  display: block;
+  width: 100px;
+}
+
+#menu-bar{
+  display: none;
+}
+
+header label {
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+#capçelera img {
+  height: 150px;
+}
+/*------------------------ MENU ------------------------*/
+
+.menu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  background: #333;
+  opacity: 0.7;
+  transition: all 0.5s;
+  transform: translate(-100%);
+}
+
+.menu a {
+  display: block;
+  color: #fff;
+  height: 50px;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.menu a:hover {
+  background: grey;
+}
+
+#menu-bar:checked ~  .menu {
+  transform: translate(0%);
+}
+
+/*------------------------ IMAGES ------------------------*/
+
+#blog h2, h3, h4 {
+  text-align: center;
+}
+
+#blog .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#blog article {
+  margin: 15px;
+}
+
+#blog img {
+  width: 100%;
+  max-width: 280px;
+}
+
+#blog .logo {
+  height: 100%;
+  margin-bottom: -75px;
+}
+
+/*------------------------- PEU -------------------------*/
+#peu {
+  background-color: #58ACFA;
+  height: 50px;
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+}
+
+/*------------------------ FOTOS ------------------------*/
+
+.fotos {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
